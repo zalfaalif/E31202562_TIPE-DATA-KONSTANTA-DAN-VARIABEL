@@ -1,0 +1,27 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author acer
+ */
+package segitiga;
+import java.io.*;
+public class segitiga {
+    public static BufferedReader Stdin = new BufferedReader (new InputStreamReader  (System.in));
+    public static void main(String[]  args) throws IOException 
+    {
+        System.out.println ("--Menghitung Luas Segitiga--");
+        System.out.println ("Masukkan Alas  : ");
+        String input = Stdin.readLine ();
+        int a = Integer.parseInt (input);
+        System.out.println ("Masukkan Tinggi  :");
+        input = Stdin .readLine  ();
+        int b = Integer.parseInt (input);
+        System.out.println ("Luas"+"="+(a*b/2));
+    }
+    
+}
